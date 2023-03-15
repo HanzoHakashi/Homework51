@@ -5,6 +5,7 @@ import lombok.Data;
 import java.time.LocalDate;
 @Data
 public class Comment {
+    private String author;
     private String text;
     private LocalDate timeOfComment;
 }

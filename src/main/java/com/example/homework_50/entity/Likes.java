@@ -7,7 +7,7 @@ import java.util.Map;
 
 @Data
 public class Likes {
-   private Publication likedPost;
+   private String likedPost;//id of post
    private LocalDate dateOfLike;
-   private User likedUser;
+   private String likedUser;
 }

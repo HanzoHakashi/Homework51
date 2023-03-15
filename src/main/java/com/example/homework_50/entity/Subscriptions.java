@@ -6,7 +6,8 @@ import java.time.LocalDate;
 import java.util.List;
 @Data
 public class Subscriptions {
-    private List<User> subscribers;
-    private List<User> subscriptions;
+    private String userEmail;//email of account owner
+    private String subscriber;//email of subscriber
+    private String subscription;//email of subscriptions
     private LocalDate dateOfEvent;
 }
